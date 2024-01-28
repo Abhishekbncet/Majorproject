@@ -1,0 +1,68 @@
+:root {
+    --background-color: #fbfbfb;
+    --green-background-color: #153e52;
+    --dark-green-color: n#113448;
+    --light-green-color:#14BF98;
+    --dark-gray-color: #484A46;
+    --light-gray-color: #787976;
+    --white-color: #FFFFFF;
+    --disabled-color: #E9ECEF;
+    --dark-white-color:#DFE5EC;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--background-color);oooooooooooooooooooooooooooooooo
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.Home {
+    background-image: url('./assets/Home2.jpg') ;
+    background-size: cover;
+    background-image: linear-gradient();
+    min-height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+    position: fixed;
+    justify-content: space-between; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-sizing:border-box;
+    align-items: center;
+    color: var(--white-color);
+}
+nav a{
+    text-decoration: none;
+    color: var(--white-color);
+    transition: color 0.125s ease-in-out;
+}
+nav a:visited{
+    color: var(--white-color)
+}
+nav a:hover {
+    color:var(--light-green-color)
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+    margin: o;
+    padding: 0;
+    text-transform: uppercase;
+}
